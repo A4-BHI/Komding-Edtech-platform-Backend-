@@ -2,6 +2,7 @@
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 const User = require("../models/User");
+
 // Configuring dotenv to load environment variables from .env file
 dotenv.config();
 
