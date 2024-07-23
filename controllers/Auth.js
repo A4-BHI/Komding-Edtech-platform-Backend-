@@ -221,7 +221,7 @@ exports.sendotp = async (req, res) => {
     })
   } catch (error) {
     console.log(error.message)
-    return res.status(500).json({ success: false, error: error.message })
+    return res.status(500).json({ success: false, error: "something went wrong"})
   }
 }
 
